@@ -73,7 +73,7 @@ Visualization:
 Plotted ROC curves and confusion matrices to visualize model performance.
 
 ## Challenges & Solutions
-Imbalanced Dataset:
+### Imbalanced Dataset:
 
 Challenge: The dataset was highly imbalanced, with only 0.172% fraudulent transactions.
 
@@ -85,13 +85,13 @@ Challenge: The dataset had 30 features, some of which were irrelevant or redunda
 
 Solution: Used SelectKBest to select the top 10 most important features, reducing dimensionality and improving model efficiency.
 
-Model Overfitting:
+### Model Overfitting:
 
 Challenge: Some models (e.g., Random Forest) showed signs of overfitting.
 
 Solution: Tuned hyperparameters using GridSearchCV and cross-validation to improve generalization.
 
-Feature Name Mismatch:
+### Feature Name Mismatch:
 
 Challenge: The input data for predictions did not match the feature names used during training.
 
