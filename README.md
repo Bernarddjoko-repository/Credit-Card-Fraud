@@ -20,7 +20,7 @@ The dataset is highly imbalanced, with only 0.172% of transactions being fraudul
 
 ## Business Problem
 Credit card fraud detection is a critical business problem for financial institutions.
-The primary challenges are:
+### The primary challenges are:
 
 Imbalanced Data: Fraudulent transactions are rare compared to legitimate ones.
 
@@ -31,25 +31,26 @@ High Precision: False positives (legitimate transactions flagged as fraud) can l
 The goal of this project was to build a machine learning model that can accurately detect fraudulent transactions while minimizing false positives and false negatives.
 
 ## Step-by-Step Approach
-Data Exploration:
+
+###Data Exploration:
 
 Analyzed the dataset to understand its structure, distribution, and imbalance.
 
 Visualized feature distributions and correlations.
 
-Data Preprocessing:
+### Data Preprocessing:
 
 Scaled the Time and Amount features using StandardScaler.
 
 Addressed the class imbalance using techniques like SMOTE (Synthetic Minority Oversampling Technique).
 
-Feature Selection:
+### Feature Selection:
 
 Used SelectKBest to select the top 10 most important features for model training.
 
 Reduced dimensionality to improve model performance and reduce overfitting.
 
-Model Training:
+### Model Training:
 
 Trained multiple machine learning models, including:
 
@@ -61,7 +62,7 @@ Logistic Regression
 
 Evaluated models using metrics like precision, recall, F1-score, and AUC-ROC.
 
-Model Evaluation:
+### Model Evaluation:
 
 Compared the performance of the models using a test set.
 
@@ -78,7 +79,7 @@ Challenge: The dataset was highly imbalanced, with only 0.172% fraudulent transa
 
 Solution: Used SMOTE to oversample the minority class and improve model performance.
 
-Feature Selection:
+### Feature Selection:
 
 Challenge: The dataset had 30 features, some of which were irrelevant or redundant.
 
@@ -159,7 +160,7 @@ Model Evaluation: Demonstrated a strong understanding of evaluation metrics (pre
 
 Problem-Solving: Overcame challenges like feature name mismatches and model overfitting through systematic debugging and tuning.
 
-## Recommendations for Hiring Managers
+## Why is this proect Important
 Highlight Technical Skills: This project demonstrates expertise in data preprocessing, feature selection, model training, and evaluation.
 
 Showcase Problem-Solving: The ability to address challenges like imbalanced data and feature name mismatches highlights strong problem-solving skills.
