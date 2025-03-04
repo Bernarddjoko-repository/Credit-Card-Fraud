@@ -1,3 +1,4 @@
+![Credit Card Fraud](https://github.com/user-attachments/assets/45a40533-49c0-4009-ac33-bb4795f974c1)
 
 
 ## Introduction
